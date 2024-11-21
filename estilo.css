@@ -1,9 +1,10 @@
 body {
-    color: rgb(55, 10, 10);
+    color: rgb(235, 219, 219);
     background-color: black;
+    font-family: sans-serif;
 }
 
-section {
+.chamada {
     background: rgb(222, 87, 222);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -11,6 +12,20 @@ section {
     justify-content: center;
 }
 
-div {
-    margin-right: 20px;
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+  }
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
